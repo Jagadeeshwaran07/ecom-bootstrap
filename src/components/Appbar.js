@@ -5,9 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Appbar = () => {
     return ( 
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary ">
       <Container>
-        <Navbar.Brand href="#home"><h2 className='text-primary'><span><i className="bi bi-feather "></i> Peacock Silks</span></h2></Navbar.Brand>
+        <Navbar.Brand href="#home"><h2 className='text-primary text-bg-none border border-primary rounded' ><span><i className="bi bi-feather "></i> Peacock Silks</span></h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
           <Nav >
