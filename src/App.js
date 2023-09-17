@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import './css/mainmin.css';
+import Appbar from './components/Appbar';
 
 function App() {
   return (
-    <p className='h1'>HI</p>
+    <Appbar/>
   );
 }
 
