@@ -14,7 +14,7 @@ function App() {
         <Collections/>
         <Trending/>
         <Comments/>
-        <div className="text-center my-3 bg-secondary">© Coffeerights JSJ 2020-2024 </div>
+        <div className="text-center my-3 bg-light">© Coffeerights JSJ 2020-2024 </div>
     </>
   );
 }
