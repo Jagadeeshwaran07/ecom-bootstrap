@@ -7,7 +7,7 @@ const Banner = () => {
     <Container fluid className="bg-primary">
       <Row className="justify-content-center align-items-center">
         <Col lg={8}>
-          <Carousel className="mt-1">
+          <Carousel className="mt-3">
             <Carousel.Item interval={2000}>
               <img
                 className="d-block w-100"
